@@ -1,12 +1,12 @@
 # chuongtrinh
 Chương trình đầu tiên
 
- Bui Duc Viet
++ Bui Duc Viet
 
- Huynh Thi Hoa
++ Huynh Thi Hoa
  
  
 
-K47 Tin hoc kinh te
++ K47 Tin hoc kinh te
 
-Dai hoc kinh te - Dai hoc Hue
++ Dai hoc kinh te - Dai hoc Hue
