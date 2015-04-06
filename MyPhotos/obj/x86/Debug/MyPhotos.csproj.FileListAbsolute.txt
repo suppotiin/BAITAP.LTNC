@@ -1,0 +1,8 @@
+D:\C#\MyPhotos\MyPhotos\bin\Debug\MyPhotos.exe
+D:\C#\MyPhotos\MyPhotos\bin\Debug\MyPhotos.pdb
+D:\C#\MyPhotos\MyPhotos\obj\x86\Debug\MyPhotos.Form1.resources
+D:\C#\MyPhotos\MyPhotos\obj\x86\Debug\MyPhotos.Properties.Resources.resources
+D:\C#\MyPhotos\MyPhotos\obj\x86\Debug\MyPhotos.csproj.GenerateResource.Cache
+D:\C#\MyPhotos\MyPhotos\obj\x86\Debug\MyPhotos.exe
+D:\C#\MyPhotos\MyPhotos\obj\x86\Debug\MyPhotos.pdb
+D:\C#\MyPhotos\MyPhotos\obj\x86\Debug\MyPhotos.csprojResolveAssemblyReference.cache
