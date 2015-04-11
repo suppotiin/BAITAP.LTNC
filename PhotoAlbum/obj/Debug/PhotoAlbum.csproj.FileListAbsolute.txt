@@ -2,3 +2,4 @@ D:\C#\MyPhotos\PhotoAlbum\bin\Debug\PhotoAlbum.dll
 D:\C#\MyPhotos\PhotoAlbum\bin\Debug\PhotoAlbum.pdb
 D:\C#\MyPhotos\PhotoAlbum\obj\Debug\PhotoAlbum.dll
 D:\C#\MyPhotos\PhotoAlbum\obj\Debug\PhotoAlbum.pdb
+D:\C#\MyPhotos\PhotoAlbum\obj\Debug\PhotoAlbum.csprojResolveAssemblyReference.cache

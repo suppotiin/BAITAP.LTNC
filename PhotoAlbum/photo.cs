@@ -5,7 +5,7 @@ using System.Text;
 using System.Drawing;
 namespace PhotoAlbum
 {
-    class photo
+    class photo : IDisposable
     {
         private string fileName;
         public string FileName
@@ -67,6 +67,33 @@ namespace PhotoAlbum
         {
             get { return hasChanged;}
             set { hasChanged = value;}
+        }
+        public override string ToString()
+        {
+            return FileName;
+        }
+        //DUONG DAN
+        public override int GetHashCode()
+        {
+            return ToString().GetHashCode();
+        }
+        public photo(string fileName)
+        {
+            this.fileName = fileName;
+            bitmap = null;
+            caption = System.IO.Path.GetFileNameWithoutExtension(fileName);
+        }
+        public void Dispose()
+        {
+            if (bitmap != null)
+            {
+                bitmap.Dispose();
+                bitmap = null;
+            }
+        }
+        public override bool Equals(object obj)
+        {
+            return GetHashCode() == obj.GetHashCode();    
         }
     }
 }

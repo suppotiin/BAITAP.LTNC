@@ -6,6 +6,7 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
+using PhotoAlbum;
 
 namespace MyPhotos
 {
@@ -14,9 +15,16 @@ namespace MyPhotos
         public Form1()
         {
             InitializeComponent();
+            NewAlbum();
             mnuView.DropDown = contextMenuStrip1;
             SetStatusStrip(null);
             mnuView.DropDown = contextMenuStrip1;
+        }
+        private AlbumManager manager;
+        private AlbumManager Manager
+        {
+            get { return manager; }
+            set { manager = value; }
         }
         private void mnuLoad_Click(object sender, EventArgs e)
         {
@@ -73,12 +81,24 @@ namespace MyPhotos
                                 }
                     }
             }
-
+        private void DisplayAlbum()
+        {
+            pbxPhoto.Image = Manager.CurrentImage;
+            SetStatusStrip();
+            SetTitleBar();
+        }
+        private void NewAlbum()
+        {
+            // TODO: clean up, save existing album
+            Manager = new AlbumManager();
+            DisplayAlbum();
+        }
        private void SetStatusStrip(string path)
        {
            if (pbxPhoto.Image != null)
                {
-                   ct2.Text = path;
+                   ct2.Text = Manager.Current.FileName;
+                   //ct2.Text = path;
                    statusImageSize.Text = String.Format("{0:#}x{1:#}", pbxPhoto.Image.Width, pbxPhoto.Image.Height);
                    // statusAlbumPos is set in ch. 6
                }
@@ -93,6 +113,12 @@ namespace MyPhotos
        private void mnuExit_Click(object sender, EventArgs e)
        {
            Close();
+       }
+
+       private void mnuNew_Click(object sender, EventArgs e)
+       {
+            NewAlbum();
+       }
        }
        }
 
