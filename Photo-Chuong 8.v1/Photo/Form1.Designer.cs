@@ -41,7 +41,6 @@
             this.mnuPrevious = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator4 = new System.Windows.Forms.ToolStripSeparator();
             this.menuPixelData = new System.Windows.Forms.ToolStripMenuItem();
-            this.menuPhotoProps = new System.Windows.Forms.ToolStripMenuItem();
             this.mnuView = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.mnuFile = new System.Windows.Forms.ToolStripMenuItem();
@@ -68,6 +67,7 @@
             this.sttImageSize = new System.Windows.Forms.ToolStripStatusLabel();
             this.sttAlbumPos = new System.Windows.Forms.ToolStripStatusLabel();
             this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.menuPhotoProps = new System.Windows.Forms.ToolStripMenuItem();
             ((System.ComponentModel.ISupportInitialize)(this.pbxPhoto)).BeginInit();
             this.ctxMenuphoto.SuspendLayout();
             this.menuStrip1.SuspendLayout();
@@ -98,7 +98,6 @@
             this.menuPixelData,
             this.menuPhotoProps});
             this.ctxMenuphoto.Name = "ctxMenuphoto";
-            this.ctxMenuphoto.OwnerItem = this.mnuView;
             this.ctxMenuphoto.Size = new System.Drawing.Size(193, 126);
             this.ctxMenuphoto.Opening += new System.ComponentModel.CancelEventHandler(this.ctxMenuphoto_Opening);
             // 
@@ -171,12 +170,6 @@
             this.menuPixelData.Size = new System.Drawing.Size(192, 22);
             this.menuPixelData.Text = "Pixel Data";
             this.menuPixelData.Click += new System.EventHandler(this.menuPixelData_Click_1);
-            // 
-            // menuPhotoProps
-            // 
-            this.menuPhotoProps.Name = "menuPhotoProps";
-            this.menuPhotoProps.Size = new System.Drawing.Size(192, 22);
-            this.menuPhotoProps.Text = "Phot&o Properties";
             // 
             // mnuView
             // 
@@ -411,6 +404,12 @@
             // 
             this.toolStripMenuItem1.Name = "toolStripMenuItem1";
             this.toolStripMenuItem1.Size = new System.Drawing.Size(192, 22);
+            // 
+            // menuPhotoProps
+            // 
+            this.menuPhotoProps.Name = "menuPhotoProps";
+            this.menuPhotoProps.Size = new System.Drawing.Size(192, 22);
+            this.menuPhotoProps.Text = "Phot&o Properties";
             // 
             // frMain
             // 
