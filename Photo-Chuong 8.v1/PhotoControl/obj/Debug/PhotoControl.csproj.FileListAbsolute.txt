@@ -9,14 +9,3 @@ E:\LTNC\Photo\PhotoControl\obj\Debug\Manning.PhotoControl.BaseEditDialog.resourc
 E:\LTNC\Photo\PhotoControl\obj\Debug\Manning.PhotoControl.PhotoEditDialog.resources
 E:\LTNC\Photo\PhotoControl\obj\Debug\PhotoControl.dll
 E:\LTNC\Photo\PhotoControl\obj\Debug\PhotoControl.pdb
-C:\Users\HP\Desktop\Photo-Chuong 8.v1\PhotoControl\bin\Debug\PhotoControl.dll
-C:\Users\HP\Desktop\Photo-Chuong 8.v1\PhotoControl\bin\Debug\PhotoControl.pdb
-C:\Users\HP\Desktop\Photo-Chuong 8.v1\PhotoControl\bin\Debug\PhotoAlbum.dll
-C:\Users\HP\Desktop\Photo-Chuong 8.v1\PhotoControl\bin\Debug\PhotoAlbum.pdb
-C:\Users\HP\Desktop\Photo-Chuong 8.v1\PhotoControl\obj\Debug\PhotoControl.csprojResolveAssemblyReference.cache
-C:\Users\HP\Desktop\Photo-Chuong 8.v1\PhotoControl\obj\Debug\Manning.PhotoControl.BaseEditDialog.resources
-C:\Users\HP\Desktop\Photo-Chuong 8.v1\PhotoControl\obj\Debug\Manning.PhotoControl.PhotoEditDialog.resources
-C:\Users\HP\Desktop\Photo-Chuong 8.v1\PhotoControl\obj\Debug\Manning.PhotoControl.PixelDialog.resources
-C:\Users\HP\Desktop\Photo-Chuong 8.v1\PhotoControl\obj\Debug\PhotoControl.csproj.GenerateResource.Cache
-C:\Users\HP\Desktop\Photo-Chuong 8.v1\PhotoControl\obj\Debug\PhotoControl.dll
-C:\Users\HP\Desktop\Photo-Chuong 8.v1\PhotoControl\obj\Debug\PhotoControl.pdb
